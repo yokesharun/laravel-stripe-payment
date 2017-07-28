@@ -1,0 +1,21 @@
+{
+    "name": "yokesharun/stripe",
+    "description": "Easy way to charge stripe for laravel 5.*",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arun Yokesh",
+            "email": "ayokesh.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yokesharun\\Stripe\\": "src/"
+        }
+    },
+    "require": {
+        "stripe/stripe-php": "^4.4"
+    }
+}
